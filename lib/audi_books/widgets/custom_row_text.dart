@@ -2,11 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CustomRowText extends StatelessWidget {
-  const CustomRowText(
-      {super.key, required this.text});
+  const CustomRowText({super.key, required this.text, required this.color});
 
   final String text;
-
+  final Color color;
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +26,7 @@ class CustomRowText extends StatelessWidget {
             "See more",
             style: GoogleFonts.poppins(
               fontSize: 16,
-              color: const Color(0xff4838D1),
+              color: color,
               fontWeight: FontWeight.w600,
             ),
           ),

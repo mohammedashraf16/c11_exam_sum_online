@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:c11_exam_sun_online/audi_books/widgets/custom_best_seller_container.dart';
 import 'package:c11_exam_sun_online/audi_books/widgets/custom_list_view_of_books.dart';
 import 'package:c11_exam_sun_online/audi_books/widgets/custom_row_text.dart';
@@ -33,13 +35,13 @@ class HomeTap extends StatelessWidget {
               ),
             ),
           ),
-          const SliverToBoxAdapter(child: CustomRowText(text: "Categories")),
+           const SliverToBoxAdapter(child: CustomRowText(text: "Categories",color: Color(0xff4838D1),)),
           const SliverToBoxAdapter(child: CustomTapBarWidget()),
           const SliverToBoxAdapter(
-            child: CustomRowText(text: "Recommended For You"),
+            child: CustomRowText(text: "Recommended For You",color: Color(0xff4838D1),),
           ),
           SliverToBoxAdapter(child: CustomListViewOfBooks()),
-          const SliverToBoxAdapter(child: CustomRowText(text: "Best Seller")),
+          const SliverToBoxAdapter(child: CustomRowText(text: "Best Seller",color: Color(0xff4838D1),)),
           const SliverToBoxAdapter(child: SizedBox(width: 10)),
           SliverToBoxAdapter(child: CustomBestSellerContainer()),
         ],

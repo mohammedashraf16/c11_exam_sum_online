@@ -1,4 +1,5 @@
 import 'package:c11_exam_sun_online/audi_books/home_screen.dart';
+import 'package:c11_exam_sun_online/mental_health/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: HomeScreen.routeName,
-      routes: {HomeScreen.routeName: (context) =>  HomeScreen()},
+      routes: {
+        // HomeScreen.routeName: (context) => HomeScreen(),
+        HomeScreen.routeName: (context) => MentalHomeScreen(),
+      },
     );
   }
 }

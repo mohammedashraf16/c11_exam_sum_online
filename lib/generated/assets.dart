@@ -3,9 +3,20 @@ class Assets {
   Assets._();
 
   static const String imagesAudiBooks = 'assets/images/AudiBooks..png';
+  static const String imagesBeathing = 'assets/images/beathing.png';
   static const String imagesBook1 = 'assets/images/book1.png';
   static const String imagesBook2 = 'assets/images/book2.png';
+  static const String imagesCool = 'assets/images/cool.png';
+  static const String imagesHappy = 'assets/images/happy.png';
   static const String imagesLightMage = 'assets/images/lightMage.png';
   static const String imagesLogoSmall = 'assets/images/Logo Small.png';
+  static const String imagesLove = 'assets/images/love.png';
+  static const String imagesMeditation = 'assets/images/meditation.png';
+  static const String imagesMentalLogo = 'assets/images/mentalLogo.png';
+  static const String imagesPlaybutton = 'assets/images/Playbutton.png';
+  static const String imagesRelax = 'assets/images/relax.png';
+  static const String imagesSad = 'assets/images/sad.png';
+  static const String imagesWalkingtheDog = 'assets/images/Walking the Dog.png';
+  static const String imagesYoga = 'assets/images/yoga.png';
 
 }
